@@ -12,6 +12,15 @@ export const RulesChoiceLevelWrap = styled.div`
   border-radius: 10px;
   box-sizing: border-box;
 
+  .rules-fieldset-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
   .rules-fieldset {
     padding: 24px 0;
     border: none;

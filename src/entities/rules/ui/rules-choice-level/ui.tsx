@@ -26,6 +26,11 @@ export const RulesChoiceLevel = () => {
     <RulesChoiceLevelWrap>
       <fieldset className="rules-fieldset">
         <h3>Выбирите уровень сложности</h3>
+        <ul className="rules-fieldset-list">
+          <li><b>Простой</b> - спокойно играйте не торопясь </li>
+          <li><b>Средний</b> - Попробуй пройти игру за 1минуту!</li>
+          <li><b>Тяжелый</b> - Это испытание, теперь против тебя не только время но и ограниченное здоровье!</li>
+        </ul>
         <div className="rules-fieldset-select">
           {gameDifficulty.map(({label, difficulty}) =>
             <label className="rules-radio" key={label}>
