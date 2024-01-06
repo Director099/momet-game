@@ -52,7 +52,6 @@ export const CardWrap = styled.li`
     background-image: url("../img/check.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
     opacity: 0;
     transition-property: opacity;
     z-index: 1;
